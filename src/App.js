@@ -1,12 +1,16 @@
 import React from "react";
-// import Final from "./2-useEffect/final/3-useEffect-fetch-data";
-import Setup from "./2-useEffect/setup/3-useEffect-fetch-data";
+// import Final from "./3-conditional-rendering/final/3-show-hide";
+// import Setup from "./3-conditional-rendering/setup/3-show-hide";
+import TourList from "./projects/02-tours/TourList";
 
 function App() {
   return (
     <div className="container">
-      <Setup />
-      {/* <Final /> */}
+      <section className="head">
+        <h1>Our Tours</h1>
+        <div className="underline"></div>
+      </section>
+      <TourList />
     </div>
   );
 }

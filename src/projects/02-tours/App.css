@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+  background-color: #dcf5fd;
+  min-height: 100vh;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+
+.container .underline {
+  width: 70px;
+  height: 5px;
+  background-color: #01bebe;
+}
+
+.tour-list-container {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-tour-list-container {
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-tour-list-container h3 {
+  font-size: 30px;
+  color: red;
+  margin: 20px 0;
+}
+
+.no-tour-list-container button {
+  padding: 5px 25px;
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.no-tour-list-container button:hover {
+  opacity: 0.8;
+}
+
+.card {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 25px 0;
+  box-shadow: 1px 1px 7px #757575;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.name-and-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  letter-spacing: 1px;
+}
+
+.tour-name {
+  color: #222222;
+}
+
+.tour-price {
+  color: #01bebe;
+  background-color: aliceblue;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.info {
+  color: #acacac;
+  font-weight: 100;
+  padding: 0 15px;
+  font-size: 15px;
+}
+
+.read-more-or-less {
+  border: none;
+  background: none;
+  margin-left: 5px;
+  font-size: 15px;
+  color: #01bebe;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.read-more-or-less:hover {
+  color: #21a3a3;
+  font-weight: 500;
+}
+
+.remove-tour {
+  padding: 5px 35px;
+  background: none;
+  border: 1.5px solid red;
+  border-radius: 5px;
+  color: red;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.remove-tour:hover {
+  background-color: red;
+  color: white;
+}
