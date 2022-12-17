@@ -1,13 +1,12 @@
 import React from "react";
-// import Final from "./1-useState/final/1-error-example";
-import Setup from "./1-useState/setup/1-error-example";
+import Final from "./1-useState/final/4-useState-object";
+import Setup from "./1-useState/setup/5-useState-counter";
 
 function App() {
   return (
     <div className="container">
-      <h2>Advanced Tutorial</h2>
       <Setup />
-      {/* <Final /> */}
+      <Final />
     </div>
   );
 }
