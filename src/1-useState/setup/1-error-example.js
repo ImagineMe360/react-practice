@@ -1,7 +1,11 @@
 import React from "react";
 
 const ErrorExample = () => {
-  return <h2>useState error example</h2>;
+  return (
+    <div>
+      <h1>Random Text</h1>
+    </div>
+  );
 };
 
 export default ErrorExample;

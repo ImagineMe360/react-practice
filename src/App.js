@@ -1,15 +1,13 @@
-import React from "react";
-// import Final from "./1-useState/final/1-error-example";
-import Setup from "./1-useState/setup/1-error-example";
+// import Final from "./5-useRef/final/1-useRef-basics"
+import Setup from "./5-useRef/setup/1-useRef-basics"
 
 function App() {
   return (
-    <div className="container">
-      <h2>Advanced Tutorial</h2>
+    <div className='container'>
       <Setup />
       {/* <Final /> */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
